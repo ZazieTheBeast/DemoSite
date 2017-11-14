@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using DemoSite.Models;
+using DemoSite.ViewModels;
 
 namespace DemoSite.Controllers
 {
@@ -19,7 +20,10 @@ namespace DemoSite.Controllers
 
         public ViewResult List()
         {
-            return View(_pieRepository.Pies);
+            PiesListViewModel piesListViewModel = new PiesListViewModel();
+            piesListViewModel.Pies = _pieRepository.Pies;
+            piesListViewModel.CurrentCategory = "Cheese Cakes";
+            return View(piesListViewModel);
         }
     }
 }

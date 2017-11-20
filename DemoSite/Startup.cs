@@ -53,7 +53,7 @@ namespace DemoSite
             app.UseMvcWithDefaultRoute();
             app.UseSession();
             DbInitializer.Seed(app);
-
+            
         }
     }
 }

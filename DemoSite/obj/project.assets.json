@@ -13131,7 +13131,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Kris\\.nuget\\packages\\": {},
+    "C:\\Users\\kmkass\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -13140,17 +13140,17 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kris\\source\\repos\\DemoSite\\DemoSite\\DemoSite.csproj",
+      "projectUniqueName": "C:\\Users\\kmkass\\Source\\Repos\\DemoSite\\DemoSite\\DemoSite.csproj",
       "projectName": "DemoSite",
-      "projectPath": "C:\\Users\\Kris\\source\\repos\\DemoSite\\DemoSite\\DemoSite.csproj",
-      "packagesPath": "C:\\Users\\Kris\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kris\\source\\repos\\DemoSite\\DemoSite\\obj\\",
+      "projectPath": "C:\\Users\\kmkass\\Source\\Repos\\DemoSite\\DemoSite\\DemoSite.csproj",
+      "packagesPath": "C:\\Users\\kmkass\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\kmkass\\Source\\Repos\\DemoSite\\DemoSite\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Kris\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\kmkass\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -13196,7 +13196,7 @@
           },
           "Microsoft.NETCore.App": {
             "target": "Package",
-            "version": "2.0.0",
+            "version": "2.0",
             "autoReferenced": true
           },
           "Microsoft.EntityFrameworkCore.SqlServer": {

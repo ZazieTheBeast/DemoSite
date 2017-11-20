@@ -12,7 +12,6 @@ namespace DemoSite.Models
         public static void Seed(IApplicationBuilder applicationBuilder)
         {
             AppDbContext context = applicationBuilder.ApplicationServices.GetRequiredService<AppDbContext>();
-
             if (!context.Categories.Any())
             {
                 context.Categories.AddRange(Categories.Select(c => c.Value));

@@ -9,3 +9,14 @@ C:\Users\Kris\source\repos\DemoSite\DemoSite\obj\Debug\netcoreapp2.0\DemoSite.As
 C:\Users\Kris\source\repos\DemoSite\DemoSite\obj\Debug\netcoreapp2.0\DemoSite.dll
 C:\Users\Kris\source\repos\DemoSite\DemoSite\obj\Debug\netcoreapp2.0\DemoSite.pdb
 C:\Users\Kris\source\repos\DemoSite\DemoSite\obj\Debug\netcoreapp2.0\DemoSite.csprojResolveAssemblyReference.cache
+C:\Users\kmkass\Source\Repos\DemoSite\DemoSite\bin\Debug\netcoreapp2.0\DemoSite.deps.json
+C:\Users\kmkass\Source\Repos\DemoSite\DemoSite\bin\Debug\netcoreapp2.0\DemoSite.runtimeconfig.json
+C:\Users\kmkass\Source\Repos\DemoSite\DemoSite\bin\Debug\netcoreapp2.0\DemoSite.runtimeconfig.dev.json
+C:\Users\kmkass\Source\Repos\DemoSite\DemoSite\bin\Debug\netcoreapp2.0\DemoSite.dll
+C:\Users\kmkass\Source\Repos\DemoSite\DemoSite\bin\Debug\netcoreapp2.0\DemoSite.pdb
+C:\Users\kmkass\Source\Repos\DemoSite\DemoSite\obj\Debug\netcoreapp2.0\DemoSite.csproj.CoreCompileInputs.cache
+C:\Users\kmkass\Source\Repos\DemoSite\DemoSite\obj\Debug\netcoreapp2.0\DemoSite.AssemblyInfoInputs.cache
+C:\Users\kmkass\Source\Repos\DemoSite\DemoSite\obj\Debug\netcoreapp2.0\DemoSite.AssemblyInfo.cs
+C:\Users\kmkass\Source\Repos\DemoSite\DemoSite\obj\Debug\netcoreapp2.0\DemoSite.dll
+C:\Users\kmkass\Source\Repos\DemoSite\DemoSite\obj\Debug\netcoreapp2.0\DemoSite.pdb
+C:\Users\kmkass\Source\Repos\DemoSite\DemoSite\obj\Debug\netcoreapp2.0\DemoSite.csprojResolveAssemblyReference.cache

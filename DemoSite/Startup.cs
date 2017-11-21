@@ -38,6 +38,8 @@ namespace DemoSite
 
             services.AddTransient<IPieRepository, PieRepository>();
             services.AddTransient<ICategoryRepository, CategoryRepository>();
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            services.AddScoped<ShoppingCart>(sp => ShoppingCart.GetCart(sp));
             services.AddMemoryCache();
             services.AddSession();
             services.AddMvc();
@@ -50,8 +52,9 @@ namespace DemoSite
             app.UseDeveloperExceptionPage();
             app.UseStatusCodePages();
             app.UseStaticFiles();
-            app.UseMvcWithDefaultRoute();
             app.UseSession();
+            app.UseMvcWithDefaultRoute();
+            
             DbInitializer.Seed(app);
             
         }

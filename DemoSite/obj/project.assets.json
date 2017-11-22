@@ -6065,7 +6065,7 @@
       ]
     },
     "Microsoft.CodeAnalysis.Analyzers/1.1.0": {
-      "sha512": "HS3iRWZKcUw/8eZ/08GXKY2Bn7xNzQPzf8gRPHGSowX7u7XXu9i9YEaBeBNKUXWfI7qjvT2zXtLUvbN0hds8vg==",
+      "sha512": "9vkPttZlZ//KO9+Vt/CE6K/DJrFifWZ0MkUpyHH3XUVdEjIBGlQ9FAu8dLvWBCeI+sfEj7d7yDO33sxE5LLwEg==",
       "type": "package",
       "path": "microsoft.codeanalysis.analyzers/1.1.0",
       "files": [
@@ -8015,7 +8015,7 @@
       ]
     },
     "Remotion.Linq/2.1.1": {
-      "sha512": "IJn0BqkvwEDpP+2qjvci7n4/a9f7DhKESLWb2/uG4xQh3rTkGTBUz69bI4IivCoKkTFAqjXxYDZw2K/npohjsw==",
+      "sha512": "5fcaQ7Ra3NCSJXi7u1akOM8CCz+UnK4HUMkMN/dVuyphNq/wzyJ7wjvQow/xPXTVZD2Q5pf6ojUzxxqXS35wzA==",
       "type": "package",
       "path": "remotion.linq/2.1.1",
       "files": [
@@ -13132,7 +13132,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kmkass\\.nuget\\packages\\": {},
+    "C:\\Users\\Kris\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -13141,17 +13141,17 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\kmkass\\Source\\Repos\\DemoSite\\DemoSite\\DemoSite.csproj",
+      "projectUniqueName": "C:\\Users\\Kris\\source\\repos\\DemoSite\\DemoSite\\DemoSite.csproj",
       "projectName": "DemoSite",
-      "projectPath": "C:\\Users\\kmkass\\Source\\Repos\\DemoSite\\DemoSite\\DemoSite.csproj",
-      "packagesPath": "C:\\Users\\kmkass\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kmkass\\Source\\Repos\\DemoSite\\DemoSite\\obj\\",
+      "projectPath": "C:\\Users\\Kris\\source\\repos\\DemoSite\\DemoSite\\DemoSite.csproj",
+      "packagesPath": "C:\\Users\\Kris\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Kris\\source\\repos\\DemoSite\\DemoSite\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\kmkass\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Kris\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -13201,7 +13201,7 @@
           },
           "Microsoft.NETCore.App": {
             "target": "Package",
-            "version": "2.0",
+            "version": "2.0.0",
             "autoReferenced": true
           },
           "Microsoft.EntityFrameworkCore.SqlServer": {

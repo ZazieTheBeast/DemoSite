@@ -13118,6 +13118,7 @@
     ".NETCoreApp,Version=v2.0": [
       "Microsoft.AspNetCore.All >= 2.0.3",
       "Microsoft.AspNetCore.Http.Extensions >= 2.0.1",
+      "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 2.0.1",
       "Microsoft.AspNetCore.Mvc >= 2.0.1",
       "Microsoft.AspNetCore.Razor >= 2.0.1",
       "Microsoft.AspNetCore.Session >= 2.0.1",
@@ -13175,6 +13176,10 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "2.0.1"
+          },
           "Microsoft.Extensions.Configuration.Json": {
             "target": "Package",
             "version": "2.0.0"
@@ -13201,7 +13206,7 @@
           },
           "Microsoft.NETCore.App": {
             "target": "Package",
-            "version": "2.0.0",
+            "version": "2.0",
             "autoReferenced": true
           },
           "Microsoft.EntityFrameworkCore.SqlServer": {

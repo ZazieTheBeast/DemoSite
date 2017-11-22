@@ -10,6 +10,7 @@ using Microsoft.Extensions.Logging;
 using DemoSite.Models;
 using Microsoft.Extensions.Configuration;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
 
 namespace DemoSite
 {
@@ -32,7 +33,8 @@ namespace DemoSite
 
             services.AddDbContext<AppDbContext>(options =>
                                          options.UseSqlServer(_configurationRoot.GetConnectionString("DefaultConnection")));
-
+            services.AddIdentity<IdentityUser, IdentityRole>()
+                .AddEntityFrameworkStores<AppDbContext>();
             //services.AddTransient<ICategoryRepository, MockCategoryRepository>();
             //services.AddTransient<IPieRepository, MockPieRepository>();
 
@@ -40,10 +42,10 @@ namespace DemoSite
             services.AddTransient<ICategoryRepository, CategoryRepository>();
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
             services.AddScoped<ShoppingCart>(sp => ShoppingCart.GetCart(sp));
+            services.AddTransient<IOrderRepository, OrderRepository>();
             services.AddMemoryCache();
             services.AddSession();
             services.AddMvc();
-
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -53,6 +55,7 @@ namespace DemoSite
             app.UseStatusCodePages();
             app.UseStaticFiles();
             app.UseSession();
+            app.UseIdentity();
             //app.UseMvcWithDefaultRoute();
             app.UseMvc(routes =>
             {

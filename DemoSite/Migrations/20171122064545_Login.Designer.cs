@@ -11,8 +11,8 @@ using System;
 namespace DemoSite.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20171122053114_Identity")]
-    partial class Identity
+    [Migration("20171122064545_Login")]
+    partial class Login
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

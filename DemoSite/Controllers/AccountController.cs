@@ -10,8 +10,10 @@ using System.Threading.Tasks;
 
 namespace DemoSite.Controllers
 {
+    [Authorize]
     public class AccountController : Controller
     {
+        
         private readonly UserManager<IdentityUser> _userManager;
         private readonly SignInManager<IdentityUser> _signInManager;
 
@@ -21,7 +23,7 @@ namespace DemoSite.Controllers
             _userManager = userManager;
             _signInManager = signInManager;
         }
-
+        [AllowAnonymous]
         public IActionResult Login(string returnUrl)
         {
             return View(new LoginViewModel
@@ -31,6 +33,7 @@ namespace DemoSite.Controllers
         }
 
         [HttpPost]
+        [AllowAnonymous]
         public async Task<IActionResult> Login(LoginViewModel loginViewModel)
         {
             if (!ModelState.IsValid)
@@ -54,7 +57,7 @@ namespace DemoSite.Controllers
             return View(loginViewModel);
         }
 
-
+        [AllowAnonymous]
         public IActionResult Register()
         {
             return View();
@@ -62,6 +65,7 @@ namespace DemoSite.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [AllowAnonymous]
         public async Task<IActionResult> Register(LoginViewModel loginViewModel)
         {
             if (ModelState.IsValid)
